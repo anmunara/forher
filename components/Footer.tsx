@@ -26,7 +26,7 @@ export default function Footer() {
       <div className="border-y border-f1gray/40">
         <div className="max-w-[1400px] mx-auto px-4 py-5 flex flex-wrap items-center justify-between gap-4">
           <span className="font-black italic text-xl tracking-tighter">
-            Formula for her
+            Formula For Her
           </span>
           <div className="flex gap-3">
             {SOCIAL.map((s) => (

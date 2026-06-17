@@ -305,7 +305,7 @@ export default function Header() {
           </button>
 
           <button className="hidden sm:inline-flex bg-f1red hover:bg-pink-600 transition text-white text-xs uppercase font-bold px-5 py-2.5 rounded-sm tracking-wide">
-            Formula for her
+            Formula For Her
           </button>
 
           {/* Mobile toggle */}
