@@ -38,16 +38,10 @@ export default function NewsGrid() {
                 alt={n.title}
                 className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
               />
-              <span
-                className="absolute left-0 top-0 h-full w-1.5"
-                style={{ background: n.accent }}
-              />
+              <span className="absolute left-0 top-0 h-full w-1.5 bg-f1red" />
             </div>
             <div className="p-5">
-              <span
-                className="text-[11px] font-bold uppercase tracking-widest"
-                style={{ color: n.accent }}
-              >
+              <span className="text-[11px] font-bold uppercase tracking-widest text-f1red">
                 {n.category}
               </span>
               <h3 className="mt-2 font-bold text-lg leading-tight group-hover:text-f1red transition">

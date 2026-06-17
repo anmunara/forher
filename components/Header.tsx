@@ -304,8 +304,8 @@ export default function Header() {
             </svg>
           </button>
 
-          <button className="hidden sm:inline-flex bg-f1red hover:bg-red-700 transition text-white text-xs uppercase font-bold px-5 py-2.5 rounded-sm tracking-wide">
-            Subscribe to F1 TV
+          <button className="hidden sm:inline-flex bg-f1red hover:bg-pink-600 transition text-white text-xs uppercase font-bold px-5 py-2.5 rounded-sm tracking-wide">
+            Formula for her
           </button>
 
           {/* Mobile toggle */}

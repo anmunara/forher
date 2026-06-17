@@ -1,9 +1,8 @@
 import Link from "next/link";
 
 const COLS = [
-  { title: "Latest", links: ["News", "Video", "Race Results", "Live Timing"] },
+  { title: "Latest", links: ["Article", "Clips", "Race Results", "Live Timing"] },
   { title: "Season", links: ["Schedule", "Standings", "Drivers", "Teams"] },
-  { title: "F1 Experiences", links: ["Tickets", "Hospitality", "Paddock Club", "Travel"] },
   { title: "Company", links: ["About", "Careers", "Press", "Contact"] }
 ];
 
@@ -27,7 +26,7 @@ export default function Footer() {
       <div className="border-y border-f1gray/40">
         <div className="max-w-[1400px] mx-auto px-4 py-5 flex flex-wrap items-center justify-between gap-4">
           <span className="font-black italic text-xl tracking-tighter">
-            FOLLOW F1
+            Formula for her
           </span>
           <div className="flex gap-3">
             {SOCIAL.map((s) => (
